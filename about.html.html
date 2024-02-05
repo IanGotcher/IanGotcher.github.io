@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+Project:  Project1-About Me
+Name: Ian Gotcher
+Submitted: 1/19/24
+ 
+I declare that the following source code was written by me, or provided
+by the instructor for this project. I understand that copying source
+code from any other source, providing source code to another student, 
+or leaving my code on a public web site constitutes cheating.
+I acknowledge that  If I am found in violation of this policy this may result
+in a zero grade, a permanent record on file and possibly immediate failure of the class.
+ 
+Reflection (1-2 paragraphs: This assignment wasn't too difficult since I've worked with HTML before, and W3Schools was very helpful.
+Trying to keep the table formatted correctly when adding row spans was a bit tedious but I was always able to figure it out after some trial-and-error in Firefox.
+For the extra points I chose to do the following: Changing the font, changing the hyperlinks so that they are only underlined when hovered over, indenting my poem,
+table text alignment, and equal table column widths.
+
+For the poem I chose to use <blockquote> since that seemed like the perfect solution for easily indenting a block of text. This file uses internal CSS, which made
+it very easy to format this file the way I needed it to be.
+ -->
+ 
+ <html>
+ <head>
+	<title>Ian Gotcher</title>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+ </head>
+ 
+ <body>
+	<main>
+		<header>
+			<h1>Ian Gotcher</h1>
+		</header>
+		
+		<img src="PictureOfMe.jpg">
+		<h2>Personal Info:</h2>
+		<ul>
+			<li><strong>Major:</strong> Computer Science, B.S. (Computer Science Emphasis)</li>
+			<li><strong>High School:</strong> Pleasant Grove High School, Pleasant Grove, UT. 2019</li>
+			<li><strong>Current Year at UVU:</strong> Junior</li>
+			<li><strong>Favorite Ice Cream:</strong> Peanut Butter Chocolate</li>
+		</ul>
+		
+		<h2>My five favorite books</h2>
+		<ol>
+			<li><em>To Kill a Mockingbird</em>, <a href="https://en.wikipedia.org/wiki/Harper_Lee">Harper Lee</a></li>
+			<li><em>1984</em>, <a href="https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/">George Orwell</a></li>
+			<li><em>The Iliad</em>, <a href="https://en.wikipedia.org/wiki/Homer">Homer</a></li>
+			<li><em>The Grapes of Wrath</em>, <a href="https://en.wikipedia.org/wiki/John_Steinbeck">John Steinbeck</a></li>
+			<li><em>The New Oxford Annotated Bible, 5th Edition</em>, <a href="https://www.biblicalarchaeology.org/scholar/michael-coogan/">Michael D. Coogan</a></li>
+		</ol>
+		
+		<h2>The Incentive</h2>
+		<p>Thinking about peanut butter chocolate ice cream:</p>
+		<p>
+		<blockquote>
+			I want some junk food<br>
+			but I am working right now<br>
+			better work faster.
+		</blockquote>
+		</p>
+		
+		<h2>My personal interests</h2>
+		<p>
+		&emsp;&emsp;I like to listen to music whenever I'm working, driving, or chilling out. This can be anything from classical music to jazz to video game and movie soundtracks to Death Grips.<br>
+		The composers I've probably listened to the most are Beethoven, Bach, and Shostakovich. In terms of soundtracks, Nintendo, in the decades that it's been around, <br>
+		has produced a huge amount of consistently high quality music for their games, so I've listened to their stuff a lot.
+		</p>
+		<p>
+		&emsp;&emsp;I'm also a gamer. Most of the time I play games with my friends, for the past few months we've been playing Monster Hunter: World and basically nothing else<br>
+		We recently tried this new game called Lethal Company and it was a blast, there are so many interesting mechanics and quirks that combine to cause so many hilarious moments occur.<br>
+		When I have lots of spare time (mainly during the summers), I also like to sink my teeth into great singleplayer games. This last summer I played the new Legend of Zelda: Tears of the Kingdom,<br>
+		It was a fantastic experience and you could easily see all the hard work they put into the game. I've also beaten Dark Souls III a few times.
+		</p>
+		<p>
+		&emsp;&emsp;In terms of professional interests, I'm hoping to become a professional software engineer. I'm on track to graduate Spring 2025, so hopefully I can find an internship this summer<br>
+		and keep doing well in my remaining classes. In recent months I've also been very minorly considering applying to law school as a backup plan if I can't achieve my goals in the tech world.<br>
+		But in order to do that I'll have to keep increasing my practice LSAT score so I can get into a good school.<br>
+		But I am confident that I will succeed in the tech world.
+		</p>
+		
+		<h2>Class schedule</h2>
+		<table>
+		<tr>
+			<th></th>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+		</tr>
+		<tr>
+			<td>1:00</td>
+			<td rowspan="3" class="C4450">CS 4450</td>
+			<td rowspan="5" class="Work">Work</td>
+			<td rowspan="3" class="C4450">CS 4450</td>
+			<td rowspan="5" class="Work">Work</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>1:30</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2:00</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2:30</td>
+			<td rowspan="3" class="C3450">CS 3450</td>
+			<td rowspan="3" class="C3450">CS 3450</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>3:00</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>3:30</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>4:00</td>
+			<td rowspan="3" class="C3310">CS 3310</td>
+			<td rowspan="3" class="C4380">CS 4380</td>
+			<td rowspan="3" class="C3310">CS 3310</td>
+			<td rowspan="3" class="C4380">CS 4380</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>4:30</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>5:00</td>
+			<td></td>
+		</tr>
+		</table>
+	</main>
+ </body>
+ </html>
